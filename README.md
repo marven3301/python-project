@@ -16,7 +16,6 @@ Includes:
 ✅ Division by zero handling
 ✅ User input for numbers and operation
 
-⸻
 
 2. ♠️ Card Game
 
@@ -28,7 +27,6 @@ A simple card game between two players.
 	•	Points are calculated to determine the winner
 	•	Game results are stored in a victory history log
 
-⸻
 
 3. 🔁 Palindrome Checker
 
@@ -36,7 +34,6 @@ Check if an input string is a palindrome.
 	•	Ignores case sensitivity
 	•	Example: "RaceCar" → ✅ Palindrome
 
-⸻
 
 4. 📊 Bubble Sort
 
@@ -44,7 +41,6 @@ Sort a list of numbers using the Bubble Sort algorithm.
 	•	User inputs a list of numbers
 	•	List is sorted in ascending order
 
-⸻
 
 5. 🧪 Fake Data Generator
 
@@ -55,10 +51,11 @@ Generate random fake data using the faker library:
 Perfect for testing or demo purposes.
 
 
-🚀 How to Run
+## 🚀 How to Run
 
 Make sure you have Python 3 installed.
 Install dependencies:
+```bash 
 pip install faker
 
 Then run any script:
