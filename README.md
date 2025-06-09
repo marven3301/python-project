@@ -1,42 +1,79 @@
-📘 Описание функций
-1. 🧮 Калькулятор
-Простые арифметические операции: +, -, *, /
+🧰 Python Mini Projects Collection
 
-Обработка деления на 0
+A collection of simple and fun Python projects to practice basic programming concepts. Each script is interactive and beginner-friendly.
 
-Запрашивает у пользователя числа и операцию через input()
+📦 Features
 
-2. ♠️ Игра в карты
-Можно выбрать:
+1. 🧮 Calculator
 
-🔴 56-карточную колоду
+Perform basic arithmetic operations:
+	•	Addition +
+	•	Subtraction -
+	•	Multiplication *
+	•	Division /
 
-🔵 36-карточную колоду
+Includes:
+✅ Division by zero handling
+✅ User input for numbers and operation
 
-Каждому игроку раздаётся по 6 карт
+⸻
 
-Подсчитываются очки и выводится победитель
+2. ♠️ Card Game
 
-История побед сохраняется
+A simple card game between two players.
+	•	Choose from:
+🔴 56-card deck
+🔵 36-card deck
+	•	Each player gets 6 cards
+	•	Points are calculated to determine the winner
+	•	Game results are stored in a victory history log
 
-3. 🔁 Проверка палиндрома
-Ввод строки
+⸻
 
-Проверка, является ли она палиндромом
+3. 🔁 Palindrome Checker
 
-Игнорирует регистр
+Check if an input string is a palindrome.
+	•	Ignores case sensitivity
+	•	Example: "RaceCar" → ✅ Palindrome
 
-4. 📊 Сортировка пузырьком
-Пользователь вводит список чисел
+⸻
 
-Программа сортирует его по возрастанию с помощью алгоритма Bubble Sort
+4. 📊 Bubble Sort
 
-5. 🧪 Генерация фейковых данных
-Используется библиотека faker
+Sort a list of numbers using the Bubble Sort algorithm.
+	•	User inputs a list of numbers
+	•	List is sorted in ascending order
 
-После выполнения функций выводится:
+⸻
 
-Случайное имя
+5. 🧪 Fake Data Generator
 
-Случайный город
+Generate random fake data using the faker library:
+	•	👤 Random name
+	•	🌆 Random city
 
+Perfect for testing or demo purposes.
+
+
+🚀 How to Run
+
+Make sure you have Python 3 installed.
+Install dependencies:
+pip install faker
+
+Then run any script:
+python calculator.py
+python card_game.py
+python palindrome_checker.py
+python bubble_sort.py
+python fake_data_generator.py
+
+
+📁 Project Structure
+main
+├── calculator.py
+├── card_game.py
+├── palindrome_checker.py
+├── bubble_sort.py
+├── fake_data_generator.py
+└── README.md
