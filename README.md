@@ -77,7 +77,7 @@ python palindrome_checker.py
 python bubble_sort.py
 python fake_data_generator.py
 
-## 📁 Project Structure
+📁 Project Structure
 main/
 ├── calculator.py
 ├── card_game.py
