@@ -1,10 +1,10 @@
-🧰 Python Mini Projects Collection
+## 🧰 Python Mini Projects Collection
 
 A collection of simple and fun Python projects to practice basic programming concepts. Each script is interactive and beginner-friendly.
 
-📦 Features
+## 📦 Features
 
-1. 🧮 Calculator
+## 1. 🧮 Calculator
 
 Perform basic arithmetic operations:
 	•	Addition +
@@ -17,7 +17,7 @@ Includes:
 ✅ User input for numbers and operation
 
 
-2. ♠️ Card Game
+## 2. ♠️ Card Game
 
 A simple card game between two players.
 	•	Choose from:
@@ -28,21 +28,21 @@ A simple card game between two players.
 	•	Game results are stored in a victory history log
 
 
-3. 🔁 Palindrome Checker
+## 3. 🔁 Palindrome Checker
 
 Check if an input string is a palindrome.
 	•	Ignores case sensitivity
 	•	Example: "RaceCar" → ✅ Palindrome
 
 
-4. 📊 Bubble Sort
+## 4. 📊 Bubble Sort
 
 Sort a list of numbers using the Bubble Sort algorithm.
 	•	User inputs a list of numbers
 	•	List is sorted in ascending order
 
 
-5. 🧪 Fake Data Generator
+## 5. 🧪 Fake Data Generator
 
 Generate random fake data using the faker library:
 	•	👤 Random name
@@ -59,6 +59,7 @@ Install dependencies:
 pip install faker
 
 Then run any script:
+ˋˋˋpython
 python calculator.py
 python card_game.py
 python palindrome_checker.py
