@@ -1,77 +1,88 @@
-## 🧰 Python Mini Projects Collection
+# 🧰 Python Mini Projects Collection
 
-A collection of simple and fun Python projects to practice basic programming concepts. Each script is interactive and beginner-friendly.
+A collection of **simple** and **fun** Python projects to practice core programming concepts. Each script is **interactive** and **beginner-friendly**.
+
+---
 
 ## 📦 Features
 
-## 1. 🧮 Calculator
+### 1. 🧮 Calculator  
+Perform basic arithmetic operations:  
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
 
-Perform basic arithmetic operations:
-	•	Addition +
-	•	Subtraction -
-	•	Multiplication *
-	•	Division /
+**Includes:**  
+✅ Handles division by zero  
+✅ User input for numbers and operations  
 
-Includes:
-✅ Division by zero handling
-✅ User input for numbers and operation
+---
 
+### 2. ♠️ Card Game  
+A simple two-player card game.  
 
-## 2. ♠️ Card Game
+**Features:**  
+- Choose between:  
+  🔴 56-card deck  
+  🔵 36-card deck  
+- Each player receives 6 cards  
+- Points are calculated to determine the winner  
+- Results are stored in a victory history log  
 
-A simple card game between two players.
-	•	Choose from:
-🔴 56-card deck
-🔵 36-card deck
-	•	Each player gets 6 cards
-	•	Points are calculated to determine the winner
-	•	Game results are stored in a victory history log
+---
 
+### 3. 🔁 Palindrome Checker  
+Check if a given word or phrase is a palindrome.  
 
-## 3. 🔁 Palindrome Checker
+**Features:**  
+- 🔍 Case-insensitive checking  
+- Example: `"RaceCar"` → ✅ Palindrome  
 
-Check if an input string is a palindrome.
-	•	Ignores case sensitivity
-	•	Example: "RaceCar" → ✅ Palindrome
+---
 
+### 4. 📊 Bubble Sort  
+Sort a list of numbers using the Bubble Sort algorithm.  
 
-## 4. 📊 Bubble Sort
+**Features:**  
+- User inputs a list of numbers  
+- List is sorted in ascending order  
+- Easy-to-follow sorting visualization  
 
-Sort a list of numbers using the Bubble Sort algorithm.
-	•	User inputs a list of numbers
-	•	List is sorted in ascending order
+---
 
+### 5. 🧪 Fake Data Generator  
+Generate fake data using the `faker` library.  
 
-## 5. 🧪 Fake Data Generator
+**Generates:**  
+- 👤 Random names  
+- 🌆 Random cities  
 
-Generate random fake data using the faker library:
-	•	👤 Random name
-	•	🌆 Random city
+Perfect for testing and demo purposes!
 
-Perfect for testing or demo purposes.
-
+---
 
 ## 🚀 How to Run
 
-Make sure you have Python 3 installed.
-Install dependencies:
-```bash 
+1. Ensure you have **Python 3** installed.  
+2. Install required dependencies:
+
+```bash
 pip install faker
 
-Then run any script:
-ˋˋˋpython
+Run any script:
 python calculator.py
 python card_game.py
 python palindrome_checker.py
 python bubble_sort.py
 python fake_data_generator.py
 
-
-📁 Project Structure
-main
+## 📁 Project Structure
+main/
 ├── calculator.py
 ├── card_game.py
 ├── palindrome_checker.py
 ├── bubble_sort.py
 ├── fake_data_generator.py
 └── README.md
+
